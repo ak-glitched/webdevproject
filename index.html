@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Temple Architecture</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body> 
+ <nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="post">Post Your Blog</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+ </nav>
+ <main class="container">
+  <article class="blog-post">
+    <h2>Understanding India's Sacred Architecture</h2>
+    <p class="author">A blog post by <strong>Cultural Heritage Explorer</strong></p>
+    <p>Indian temple architecture evolved over thousands of years, distinctively shaped by geography, local materials, and religious traditions. Broadly categorized into Northern, Southern, and regional hybrid styles, these structures feature precise geometric alignment and intricate stone carvings.</p>
+    <div class="style-boxes">
+      <div class="style-box">
+        <h3>1. Nagara Style (Northern India)</h3>
+        <p>Prominent across Northern India, the Nagara style is characterized by a high stone platform and a curving hive-like tower called a <em>Shikhara</em>. Unlike Southern temples, Nagara temples generally do not have elaborate boundary walls or large gateways.</p>
+      </div>
+      <div class="style-box">
+        <h3>2. Dravida Style (Southern India)</h3>
+        <p>Found primarily in South India, the Dravida style features compound walls surrounding the complex and a towering, pyramid-shaped entrance gateway known as a <em>Gopuram</em>. The main shrine tower, called a <em>Vimana</em>, steps upward like a stepped pyramid.</p>
+      </div>
+      <div class="style-box">
+        <h3>3. Vesara Style (Central & Western India)</h3>
+        <p>The Vesara style is a hybrid architectural tradition that originated in regions such as Karnataka under the Chalukyas and Hoysalas. It combines elements of both Northern Nagara towers and Southern Dravida stepped shrines into a unique star-shaped or circular floor plan.</p>
+      </div>
+      <div class="style-box">
+        <h3>4. Kalinga Style (Odisha Region)</h3>
+        <p>A sub-style of Nagara architecture specific to Odisha, Kalinga architecture consists of two main parts: the <em>Deula</em> (the tall main tower housing the deity) and the <em>Jagamohana</em> (the assembly hall where devotees gather). The Sun Temple at Konark is a classic example.</p>
+      </div>
+    </div>
+  </article>
+  <section id="gallery" class="gallery-section">
+    <h2>Architectural Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <img src="https://jdschoolofdesign.b-cdn.net/wp-content/uploads/2024/01/Nagara-Style-of-Temple-Carving-5.jpg" alt="Nagara Style Temple">
+        <p>Nagara Style (North India)</p>
+      </div>
+      <div class="gallery-card">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*2JdD--srdEkMTxIr0ph76w.png" alt="Dravida Style Gopuram">
+        <p>Dravida Style Gopuram (South India)</p>
+      </div>
+      <div class="gallery-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamI0LhyDzy76PDSMbYSzib7WjWPtR5njF6WiRL93Z55p61YO1VkUtacaS&s=10" alt="Vesara Style Temple">
+        <p>Vesara Style (Karnataka)</p>
+      </div>
+      <div class="gallery-card">
+        <img src="https://iasgyan.sgp1.cdn.digitaloceanspaces.com/images/sun_onara.png" alt="Kalinga Style Konark Temple">
+        <p>Kalinga Style (Konark, Odisha)</p>
+      </div>
+    </div>
+  </section>
+  <section id="post-blog" class="form-selection">
+    <h2>Post Your Blog</h2>
+    <form action="submit_blog.php" method="POST">
+      <label for = "title">Blog Title:</label>
+      <input type="text" id="title" name="title" required>
+      <label for="content">Blog Content:</label>
+      <textarea id="content" name="content" rows="10" required></textarea>
+      <button type="submit">Submit Blog</button>
+    </form>
+  </section>
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or suggestions, feel free to reach out to us!</p>
+    <form action="submit_contact.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; CultureBlog. All rights reserved.</p>
+  </footer>
+ </main>
+</body>
+</html>
